@@ -1,0 +1,109 @@
+@font-face {
+    font-family: face;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(assets/fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: Inter-Semi;
+    src: url(assets/fonts/static/Inter-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Inter-bold;
+    src: url(assets/fonts/static/Inter-Bold.ttf);
+}
+
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    font-size: 14px;
+}
+
+.card {
+    border: 1px solid black;
+    height: 525px;
+    width: 325px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    margin: auto;
+}
+
+#name {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-family: Inter-semi;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+#loc {
+    color: hsl(75, 94%, 57%);
+    text-align: center;
+    font-family: face;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+#bio {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-family: face;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-family: face;
+    font-weight: normal
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 80%;
+    height: 38px;
+    text-align: center;
+    margin: auto;
+    background-color: hsl(0, 0%, 20%);
+    margin-top: 15px;
+}
+
+img {
+    width: 20%;
+    margin: auto;
+    margin-top: 35px;
+    display: block;
+    border-radius: 50%;
+}
+
+.attribution {
+    color: white;
+    font-family: Inter;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.attribution a {
+    font-family: Inter;
+}
